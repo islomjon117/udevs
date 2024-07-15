@@ -1,0 +1,87 @@
+.goodzone_title {
+    margin-left: 430px;
+}
+
+.goodzone_title a {
+    width: 150px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-left: 390px;
+    margin-top: 10px;
+    background-color: var(--devever_bg);
+    color: var(--delever);
+    font-weight: 600;
+}
+
+
+.goodzone_boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goodzone_left {
+    background-image: url('../../assets/development/dev_bg2.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 80px;
+}
+
+.goodzone_box2,
+.goodzone_box {
+    width: 50%;
+    height: auto;
+    background-color: var(--erpsystems);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.goodzone_box2 {
+    width: 32%;
+}
+
+.goodzone_left {
+    margin-top: -270px;
+}
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .goodzone_boxs {
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .goodzone_app {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .goodzone_title {
+        text-align: center;
+        margin-top: 80px;
+        margin: auto;
+    }
+
+    .goodzone_title a {
+        text-align: left;
+        margin: auto;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .goodzone_left {
+        margin-top: 20px;
+    }
+
+    .goodzone_text2,
+    .goodzone_text {
+        text-align: left;
+        width: 350px;
+    }
+
+}

@@ -1,0 +1,18 @@
+{
+    "english": {
+        "nav_link1": "Direction",
+        "nav_link2": "Command",
+        "nav_link3": "Services",
+        "nav_link4": "Tools",
+        "nav_link5": "Clients",
+        "nav_link6": "Portfolio"
+    },
+    "русский": {
+        "nav_link1": "Услуги",
+        "nav_link2": "Команда",
+        "nav_link3": "Напрaвление",
+        "nav_link4": "Инструменты",
+        "nav_link5": "Клиенты",
+        "nav_link6": "Портфолио"
+    }
+}

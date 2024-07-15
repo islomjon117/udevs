@@ -1,0 +1,73 @@
+.iman_notification {
+    width: 150px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: var(--iman_bg);
+    color: var(--iman);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.iman_boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iman_left {
+    background-image: url('../../assets/development/dev_bg2.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.iman_box{
+    width: 50%;
+    height: auto;
+    background-color: var(--our_services_box);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .iman_main{
+        margin-top: -80px;
+    }
+    .iman_boxs {
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .iman_app{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .iman_logo,
+    .iman_title img{
+        width: auto;
+    }
+
+    .iman_text{
+        text-align: left;
+    }
+
+    .iman_title{
+            text-align: center;
+            margin-top: 80px;
+            width: auto;
+    }
+
+    .iman_notification{
+        text-align: left;
+        /* margin: auto; */
+    }
+
+    .iman_left{
+        margin-top: 30px;
+    }
+}

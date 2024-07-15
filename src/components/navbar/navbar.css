@@ -1,0 +1,123 @@
+.navbar {
+    width: 100%;
+    height: 72px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.navbar_main {
+    z-index: 10;
+
+}
+
+.nav_main_links a {
+    margin: 18px;
+    transition: .3s;
+}
+
+.nav_links a:hover {
+    border-bottom: 1px solid #1b5bf7;
+    transition: .3s;
+}
+
+.navbar_main_menu_and_close {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar_main {
+        display: flex;
+        align-items: center;
+    }
+
+    .direction,
+    .nav_tools,
+    .nav_portifolio,
+    .nav_lang,
+    .nav_links {
+        display: none;
+    }
+
+    .navbar_main_menu_and_close {
+        display: block;
+        flex-direction: column;
+        z-index: 10;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        padding-left: 30px;
+        top: 0;
+    }
+
+    .nav_main_links.active {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_main_links {
+        width: 100%;
+        top: -0px;
+        right: 0;
+        height: 100%;
+        background: #fff;
+        text-align: center;
+        z-index: 5;
+        padding: 10px;
+        padding-bottom: 20px;
+        padding-top: 100px;
+    }
+
+    .nav_main_links a {
+        text-align: center;
+    }
+
+    .nav_contact_btn {
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .command,
+    .services,
+    .clients{
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+}

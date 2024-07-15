@@ -1,0 +1,83 @@
+/* contect background */
+.contact_section {
+    margin: auto;
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-shadow: 1px 1px 5px #888888;
+    margin-top: 50px;
+}
+
+/* contact right style start */
+.email_input,
+.phone_input {
+    width: 424px;
+    height: 50px;
+    padding-left: 18px;
+    margin-top: 20px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 4px;
+}
+
+.comment_inpur {
+    padding-left: 18px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    height: 150px;
+    width: 424px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.contact_inputs button {
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1b5bf7;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact_section {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* contact right style end */
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .contact_inputs input {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .contactpage_title{
+        font-size: 38px;
+        margin-top: 30px;
+    }
+
+    .google_map {
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .address p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .address {
+        margin-top: 30px;
+    }
+    .contact_left{
+        margin-left: 10px;
+    }
+}

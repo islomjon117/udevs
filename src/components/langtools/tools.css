@@ -1,0 +1,137 @@
+.radio-like {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-like:checked::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frontend_box {
+    height: auto;
+    background-color: var(--frontend_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+.backend_box {
+    height: auto;
+    background-color: var(--backend_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+.devops_box {
+    height: auto;
+    background-color: var(--devops_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+.testing_box {
+    height: auto;
+    background-color: var(--testing_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+.uiux_box {
+    height: auto;
+    background-color: var(--uiux_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+
+.frontend_box2,
+.mobile_box2,
+.backend_box2,
+.devops_box2,
+.testing_box2,
+.uiux_box2{
+    opacity: 0.4;
+    transition: .5s;
+    background-color: var(--select_lang);
+}
+
+.infrastructure_box2{
+    opacity: 0.3;
+    transition: .5s;
+    
+    
+}
+
+.infrastructure_box {
+    height: auto;
+    background-color: var(--uiux_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+.mobile_box {
+    height: auto;
+    background-color: var(--mobile_box);
+    padding: 15px;
+    border-radius: 8px;
+    width: 101.7px;
+}
+
+.first_line {
+    margin-left: 80px;
+}
+
+.first_line p {
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .first_line {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tools_select {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .tools_title {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .first_line {
+        margin: 0;
+    }
+
+    .tools_title h1 {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,65 @@
+.development_boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.development_left {
+    background-image: url('../../assets/development/dev_bg2.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.app_box {
+    width: 50%;
+    height: auto;
+    background-color: var(--our_services_box);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .development_boxs {
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .development_code_lang,
+    .development_app {
+        justify-content: center;
+        margin: auto;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .development_title {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .development_title h1 {
+        font-size: 32px;
+        text-align: left;
+        width: 200px;
+    }
+
+    .app_box img{
+        margin: auto;
+    }
+
+    .app_box{
+        text-align: center;
+    }
+
+    .development_text {
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+}

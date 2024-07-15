@@ -1,0 +1,25 @@
+.wework_box {
+    width: 280px;
+    height: 200px;
+    text-align: center;
+}
+
+.contact_info {
+    margin-top: 10px;
+}
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .wework_title h1{
+        margin: auto;
+        text-align: left;
+        font-size: 38px;
+        margin-top: 50px;
+        width: auto;
+    }
+
+    .wework_box{
+        align-items: center;
+    }
+
+}

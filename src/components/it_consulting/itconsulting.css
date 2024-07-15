@@ -1,0 +1,50 @@
+.consulting_boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consulting_left {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.consulting_box {
+    width: 50%;
+    height: auto;
+    background-color: var(--our_services_box);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* responsive 1024 */
+@media (max-width: 1024px) {
+    .consulting_boxs {
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .consulting_main{
+        margin-top: -80px;
+    }
+
+    .consulting_app {
+        justify-content: center;
+        justify-content: flex-start;
+    }
+
+    .consulting_title h1 {
+        font-size: 32px;
+        text-align: left;
+        margin-top: 80px;
+        width: auto;
+    }
+
+    .consulting_text {
+        margin-left: 10px;
+        text-align: left;
+    }
+}
